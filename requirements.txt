@@ -1,0 +1,8 @@
+streamlit
+sqlalchemy
+sqlite-utils
+pandas
+numpy
+bcrypt
+pathlib
+python-dotenv==1.0.1
