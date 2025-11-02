@@ -1,6 +1,6 @@
 # DB Learn
 
-## Ссылка доступа: <https://dblearn-spk.streamlit.app/>
+## Ссылка доступа: <https://dblearn-spc.streamlit.app/>
 
 ``` txt
 db_security_app/
