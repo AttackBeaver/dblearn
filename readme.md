@@ -1,27 +1,24 @@
 # DB Learn
 
 ``` txt
-dblearn/
+db_security_app/
 │
-├── app.py                         # Главный файл Streamlit-приложения
+├── app.py                     # Главный файл Streamlit
+├── database/
+│   ├── __init__.py
+│   └── db_manager.py          # Подключение и операции с БД
 │
-├── requirements.txt               # Зависимости (streamlit, pandas, sqlite3 и др.)
+├── auth/
+│   ├── __init__.py
+│   └── auth_manager.py        # Регистрация, вход, проверка ролей
 │
 ├── data/
-│   ├── users.db                   # SQLite-база для хранения пользователей и результатов
-│   └── tests/
-│       └── test-1.json           # Тест 1
+│   └── users.db               # SQLite база пользователей
 │
-├── modules/
-│   ├── auth.py                    # Авторизация и регистрация
-│   ├── test_loader.py             # Загрузка JSON-тестов
-│   ├── quiz_engine.py             # Логика тестирования и подсчёта баллов
-│   ├── results.py                 # Запись и отображение результатов
-│   └── db_init.py                 # Создание БД и таблиц при первом запуске
+├── tests/
+│   └── test_auth.py
 │
-├── assets/
-│   ├── logo.png                   # Логотип приложения
-│   └── style.css                  # Кастомное оформление (при необходимости)
+├── requirements.txt
 │
 └── README.md                      # Краткое описание и инструкция по запуску
 ```
