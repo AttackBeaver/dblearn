@@ -63,8 +63,8 @@ dblearn/
 │
 ├── data/
 │   ├─── users.db               # SQLite база пользователей
-|   └──db_manager.py            # Подключение и операции с БД
-|
+│   └──db_manager.py            # Подключение и операции с БД
+│
 ├── requirements.txt
 │
 └── README.md                  # Краткое описание и инструкция по запуску
