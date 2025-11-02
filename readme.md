@@ -42,7 +42,7 @@ db_security_app/
 4. Запустить Streamlit-приложение:
 
    ```bash
-   streamlit run src/app.py
+   streamlit run app.py
    ```
 
 После запуска в терминале появится ссылка, например:
